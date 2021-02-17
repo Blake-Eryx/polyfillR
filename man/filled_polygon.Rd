@@ -31,5 +31,5 @@ Takes an SVG polygon and partially fills it with a color.
 Returns a list containgin a character vector of an 'img' block that can be embedded into HTML output and the SVG text.
 }
 \author{
-Blake Eryx
+Blake Madden
 }

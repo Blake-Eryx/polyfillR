@@ -8,7 +8,7 @@
 #' @param fillColor A character vector. The color to fill it with. Can be any valid SVG color value (e.g., "#FF0000", "red")
 #' @param emptyColor A character vector. The background color of the polygon, indicating the portion of it that is "empty.'
 #' @param size A character vector. The size of the SVG output. Can be any valid HTML size argument (e.g., "64px" or "50\%").
-#' @author Blake Eryx
+#' @author Blake Madden
 filled_polygon <- function(fillPercentage, shapeName, viewBoxDimensions, pathSvg,
                            extraSvg = "", fillColor = "red", emptyColor = "#D9D9D9", size = "128px")
     {
@@ -45,7 +45,7 @@ filled_polygon <- function(fillPercentage, shapeName, viewBoxDimensions, pathSvg
 #' @param includePercentLabel A logical. Whether to include a label in the top left corner showing the percent that the polygon if filled.
 #' @examples
 #' female_polygon(50, "green", "256px")
-#' @author Blake Eryx
+#' @author Blake Madden
 female_polygon <- function(fillPercentage, fillColor = "#ffa7b6", emptyColor = "#D9D9D9", size = "128px", includePercentLabel=T)
     {
     textLabel <- ifelse(includePercentLabel,
@@ -69,7 +69,7 @@ female_polygon <- function(fillPercentage, fillColor = "#ffa7b6", emptyColor = "
 #' @param includePercentLabel A logical. Whether to include a label in the top left corner showing the percent that the polygon if filled.
 #' @examples
 #' male_polygon(50, "green", "256px")
-#' @author Blake Eryx
+#' @author Blake Madden
 male_polygon <- function(fillPercentage, fillColor = "#3a9fbf", emptyColor = "#D9D9D9", size = "128px", includePercentLabel=T)
     {
     textLabel <- ifelse(includePercentLabel,

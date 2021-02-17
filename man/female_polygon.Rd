@@ -30,5 +30,5 @@ Based on SVG from https://openclipart.org/detail/249446/female-symbol-silhouette
 female_polygon(50, "green", "256px")
 }
 \author{
-Blake Eryx
+Blake Madden
 }
