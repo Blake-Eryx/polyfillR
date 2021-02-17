@@ -3,7 +3,7 @@ Type: Package
 Title: Partially fill SVG polygons with a color in R
 Version: 0.1.0
 Author: Blake Madden
-Maintainer: Blake Madden
+Maintainer: Blake Madden <seasweptdreams@gmail.com>
 Description: Takes an SVG path and partially fills it with a specified color.
              This can be useful for infographics, showing how much something is complete or a creative alternative to bar charts.
              The returned objects are a (character vector) image block that can be embedded into HTML output and the updated SVG text.
