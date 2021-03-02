@@ -8,7 +8,7 @@ Description: Takes an SVG path and partially fills it with a specified color.
              This can be useful for infographics, showing how much something is complete or a creative alternative to bar charts.
              The returned objects are a (character vector) image block that can be embedded into HTML output and the updated SVG text.
              A set of predefined polygons are also included.
-License: BSD
+License: BSD 2-clause License + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
